@@ -20,14 +20,17 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary"
+        style="height: 60px"
+      >
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"
+          <a class="navbar-brand p-0" href="#"
             ><img
               src="./download.png"
               alt="logo"
               class="img-fluid"
-              style="max-width: 100px; height: auto"
+              style="max-width: 50px; height: auto"
           /></a>
           <button
             class="navbar-toggler"
@@ -43,25 +46,36 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
+                <a class="nav-link active" aria-current="page" href="#saldi"
                   >Saldi</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#welcomeSummer"
                   >Welcome Summer</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#lastMinute"
                   >Last Minute</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#recensioni"
                   >Recensioni</a
                 >
               </li>
@@ -87,23 +101,33 @@
           <div class="col col-12">
             <article class="bg-body-tertiary pt-4 pb-4 justify-content-center">
               <h1
-                class="text-secondary text-center d-flex align-items-baseline justify-content-center flex-nowrap fs-1"
+                id="home"
+                class="text-secondary d-flex align-items-baseline justify-content-center justify-content-lg-start flex-nowrap fs-1 m-lg-3"
               >
                 Eveline-R-<span class="smaller-text">feel the Freedom</span>
               </h1>
-              <div class="d-flex justify-content-center">
+              <div
+                class="d-flex justify-content-center justify-content-lg-start m-lg-3"
+              >
                 <hr class="border border-secondary w-75" />
               </div>
-              <p class="text-secondary fst-italic pb-3 fs-5">
+              <p
+                class="text-secondary fst-italic pb-3 fs-5 d-flex justify-content-center justify-content-lg-start m-lg-3"
+              >
                 Scopri le destinazioni più calde del momento!
               </p>
-              <button type="button" class="btn btn-info">Prenota ora</button>
+              <button
+                type="button"
+                class="btn btn-info d-lg-flex justify-content-lg-start m-lg-3"
+              >
+                Prenota ora
+              </button>
             </article>
           </div>
         </div>
         <div class="row mt-4">
           <div class="col d-flex justify-content-between align-items-center">
-            <h2>Saldi</h2>
+            <h2 id="saldi">Saldi</h2>
             <button
               class="btn btn-sm btn-info"
               type="button"
@@ -194,7 +218,7 @@
         </div>
         <div class="row mt-4">
           <div class="col d-flex justify-content-between align-items-center">
-            <h2>Welcome Summer</h2>
+            <h2 id="welcomeSummer">Welcome Summer</h2>
             <button
               class="btn btn-sm btn-info"
               type="button"
@@ -367,7 +391,7 @@
             </button>
           </div>
         </div>
-        <h2 class="mt-4">Last Minute</h2>
+        <h2 id="lastMinute" class="mt-4">Last Minute</h2>
         <div class="row mt-4 g-3">
           <div class="col col-6 col-md-4 col-lg-2">
             <img
@@ -419,7 +443,7 @@
           </div>
         </div>
         <section>
-          <h2 class="text-center mt-4">Dicono di noi</h2>
+          <h2 id="recensioni" class="text-center mt-4">Dicono di noi</h2>
           <div class="d-flex align-items-start">
             <img
               src="./assets/download (3).jpg"
@@ -474,7 +498,7 @@
 
             <div>
               <p class="mb-1 fw-bold">Username</p>
-              <p class="mb-0">
+              <p class="mb-4">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
                 modi sint harum tempora possimus expedita voluptates earum,
                 maiores dignissimos fugit officiis nostrum ea reprehenderit unde
@@ -489,7 +513,7 @@
         </section>
       </div>
     </main>
-    <footer class="bg-dark text-white text-center py-4">
+    <footer class="bg-dark text-white text-center py-4 mt-4">
       <div class="container">
         <button type="button" class="btn btn-outline-secondary mb-4">
           Contattaci
